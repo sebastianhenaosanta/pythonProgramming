@@ -49,11 +49,15 @@ with the value of product where the X is.
 
 """
 
-float_1 = 0.25
-float_2 = 40.0
-product = float_1 * float_2
+skill_completed = "Python Syntax"
+exercises_completed = 13 
 
-big_string = "The product was "+str(product)
+#The amount of points for each exercise may change, because points don't exist yet
+points_per_exercise = 5
+point_total = 100
+point_total = point_total  + (exercises_completed * points_per_exercise)
+
+print("I got " + str(point_total)+ " points!")
 
 
 
